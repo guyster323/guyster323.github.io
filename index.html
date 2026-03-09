@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>써니데브스토리 | Sunnydevstory - App & Web Developer</title>
+    <meta
+      name="description"
+      content="써니데브스토리 - App과 Web을 넘어 더 많은 사람들과 소통하는 개발자. Everydiary, GOOTE 등 다양한 프로젝트를 만듭니다."
+    />
+    <meta
+      name="keywords"
+      content="써니데브스토리, Sunnydevstory, 앱 개발, 웹 개발, Everydiary, GOOTE"
+    />
+    <meta property="og:title" content="써니데브스토리 | Sunnydevstory" />
+    <meta
+      property="og:description"
+      content="App과 Web을 넘어 더 많은 사람들과 소통하는 개발자"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+      <div class="nav-container">
+        <a href="#" class="nav-logo">
+          <span class="logo-icon">☀️</span>
+          <span class="logo-text">써니데브스토리</span>
+        </a>
+        <div class="nav-links" id="nav-links">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#vision" class="nav-link">Vision</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="nav-toggle" id="nav-toggle" aria-label="메뉴 열기">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="hero">
+        <div class="hero-bg">
+          <div class="hero-gradient"></div>
+          <div class="hero-particles" id="hero-particles"></div>
+        </div>
+        <div class="hero-content reveal">
+          <div class="hero-badge">🚀 App & Web Developer</div>
+          <h1 class="hero-title">
+            <span class="hero-title-line">안녕하세요,</span>
+            <span class="hero-title-highlight">써니데브스토리</span>
+            <span class="hero-title-line">입니다.</span>
+          </h1>
+          <p class="hero-description">
+            사람들의 일상에 스며드는 서비스를 만듭니다.<br />
+            App과 Web을 넘어, 더 많은 사람들과 소통하고 싶습니다.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
+            <a href="#contact" class="btn btn-outline">연락하기</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number" data-count="2">0</span>
+              <span class="stat-label">Published Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">∞</span>
+              <span class="stat-label">Passion for Code</span>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-indicator" id="scroll-indicator">
+          <span>Scroll</span>
+          <div class="scroll-arrow"></div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="section about" id="about">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag">About Me</span>
+            <h2 class="section-title">개발자 소개</h2>
+          </div>
+          <div class="about-content reveal">
+            <div class="about-text">
+              <p class="about-lead">
+                <strong>써니데브스토리</strong>는 사용자의 일상을 더 풍요롭게
+                만드는 디지털 경험을 설계하고 구현하는 개인 개발 스튜디오입니다.
+              </p>
+              <p>
+                Google Play Store에 출시한 <em>Everydiary</em>를 시작으로,
+                개발자 커뮤니티 <em>GOOTE</em>까지 — 기술로 사람들을 연결하는
+                것이 저의 목표입니다.
+              </p>
+              <div class="about-highlights">
+                <div class="highlight-item">
+                  <div class="highlight-icon">📱</div>
+                  <div>
+                    <strong>Mobile App</strong>
+                    <span>Android 앱 개발 & Play Store 출시</span>
+                  </div>
+                </div>
+                <div class="highlight-item">
+                  <div class="highlight-icon">🌐</div>
+                  <div>
+                    <strong>Web Platform</strong>
+                    <span>웹 서비스 기획 & 풀스택 개발</span>
+                  </div>
+                </div>
+                <div class="highlight-item">
+                  <div class="highlight-icon">🤝</div>
+                  <div>
+                    <strong>Community</strong>
+                    <span>개발자 커뮤니티 운영 & 소통</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="section projects" id="projects">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag">Projects</span>
+            <h2 class="section-title">프로젝트</h2>
+            <p class="section-subtitle">기술로 만드는 가치있는 경험들</p>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Everydiary Card -->
+            <article class="project-card reveal" id="project-everydiary">
+              <div class="project-card-glow project-card-glow--warm"></div>
+              <div class="project-card-inner">
+                <div class="project-image">
+                  <img
+                    src="/images/everydiary.png"
+                    alt="Everydiary 앱 아이콘"
+                    loading="lazy"
+                  />
+                  <div class="project-badge">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <polygon
+                        points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"
+                      />
+                    </svg>
+                    Google Play
+                  </div>
+                </div>
+                <div class="project-info">
+                  <h3 class="project-title">Everydiary</h3>
+                  <p class="project-tagline">일기 내용이 AI 이미지로!</p>
+                  <p class="project-description">
+                    매일의 기록을 AI가 아름다운 이미지로 변환해주는 스마트 일기
+                    앱. 당신의 하루를 특별한 그림으로 간직하세요.
+                  </p>
+                  <div class="project-tech">
+                    <span class="tech-badge">Android</span>
+                    <span class="tech-badge">AI</span>
+                    <span class="tech-badge">Flutter</span>
+                  </div>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.everydiary.lite&hl=ko"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                    id="link-everydiary"
+                  >
+                    <span>Play Store에서 보기</span>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <line x1="7" y1="17" x2="17" y2="7" />
+                      <polyline points="7 7 17 7 17 17" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- GOOTE Card -->
+            <article class="project-card reveal" id="project-goote">
+              <div class="project-card-glow project-card-glow--cool"></div>
+              <div class="project-card-inner">
+                <div class="project-image">
+                  <img
+                    src="/images/goote.png"
+                    alt="GOOTE 커뮤니티 아이콘"
+                    loading="lazy"
+                  />
+                  <div class="project-badge project-badge--teal">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                      <circle cx="9" cy="7" r="4" />
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                    </svg>
+                    Web App
+                  </div>
+                </div>
+                <div class="project-info">
+                  <h3 class="project-title">GOOTE</h3>
+                  <p class="project-tagline">App Testing Community</p>
+                  <p class="project-description">
+                    Google Play Console 개발자들을 위한 테스트 커뮤니티.
+                    개발자들이 서로의 앱을 테스트하고 피드백을 교환하는 협업
+                    플랫폼입니다.
+                  </p>
+                  <div class="project-tech">
+                    <span class="tech-badge">Next.js</span>
+                    <span class="tech-badge">Firebase</span>
+                    <span class="tech-badge">Community</span>
+                  </div>
+                  <a
+                    href="https://goote-f48d8.web.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                    id="link-goote"
+                  >
+                    <span>GOOTE 방문하기</span>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <line x1="7" y1="17" x2="17" y2="7" />
+                      <polyline points="7 7 17 7 17 17" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Vision Section -->
+      <section class="section vision" id="vision">
+        <div class="vision-bg">
+          <div class="vision-gradient"></div>
+        </div>
+        <div class="container">
+          <div class="vision-content reveal">
+            <span class="section-tag">Vision</span>
+            <h2 class="vision-title">
+              App과 Web을 넘어,<br />
+              <span class="vision-highlight"
+                >더 많은 사람들과 소통하고 싶습니다.</span
+              >
+            </h2>
+            <p class="vision-text">
+              코드 한 줄이 누군가의 하루를 바꿀 수 있다고 믿습니다.<br />
+              Everydiary로 사용자의 일상을 기록하고,<br />
+              GOOTE로 개발자들을 연결했듯이 —<br /><br />
+              앞으로도 기술의 힘으로 더 많은 사람들과<br />
+              <strong>의미 있는 연결</strong>을 만들어 가겠습니다.
+            </p>
+            <div class="vision-roadmap">
+              <div class="roadmap-item roadmap-done">
+                <div class="roadmap-dot"></div>
+                <div class="roadmap-content">
+                  <strong>Mobile App</strong>
+                  <span>Everydiary 출시</span>
+                </div>
+              </div>
+              <div class="roadmap-item roadmap-done">
+                <div class="roadmap-dot"></div>
+                <div class="roadmap-content">
+                  <strong>Web Platform</strong>
+                  <span>GOOTE 커뮤니티 런칭</span>
+                </div>
+              </div>
+              <div class="roadmap-item roadmap-current">
+                <div class="roadmap-dot"></div>
+                <div class="roadmap-content">
+                  <strong>Beyond App & Web</strong>
+                  <span>더 넓은 세상과 소통하기</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="section contact" id="contact">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag">Contact</span>
+            <h2 class="section-title">함께 만들어요</h2>
+            <p class="section-subtitle">
+              프로젝트 협업이나 문의가 있으시면 연락해 주세요
+            </p>
+          </div>
+          <div class="contact-cards reveal">
+            <a
+              href="mailto:window98se@gmail.com"
+              class="contact-card"
+              id="contact-email"
+            >
+              <div class="contact-icon">✉️</div>
+              <strong>Email</strong>
+              <span>window98se@gmail.com</span>
+            </a>
+            <a
+              href="https://play.google.com/store/apps/developer?id=Sunnydevstory"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-card"
+              id="contact-playstore"
+            >
+              <div class="contact-icon">🎮</div>
+              <strong>Google Play</strong>
+              <span>Sunnydevstory</span>
+            </a>
+            <a
+              href="https://guyster323.github.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-card"
+              id="contact-github"
+            >
+              <div class="contact-icon">🌐</div>
+              <strong>Website</strong>
+              <span>guyster323.github.io</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <span class="logo-icon">☀️</span>
+            <span class="footer-name">써니데브스토리</span>
+          </div>
+          <p class="footer-copy">© 2026 Sunnydevstory. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
