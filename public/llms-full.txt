@@ -1,0 +1,28 @@
+# Sunnydevstory
+> Sunnydevstory is the official landing page for a Korean solo developer brand that builds AI-enabled Android apps, web services, and developer communities.
+
+## Main Pages
+- [Home](https://sunnydevstory.netlify.app/): Official homepage introducing Sunnydevstory, a personal development studio focused on practical digital products.
+- [About](https://sunnydevstory.netlify.app/#about): Explains that Sunnydevstory designs and builds digital experiences that improve everyday life and connect people through technology.
+- [Projects](https://sunnydevstory.netlify.app/#projects): Lists flagship products with descriptions, technology stacks, and outbound links.
+- [Vision](https://sunnydevstory.netlify.app/#vision): Describes the product vision centered on meaningful connection beyond apps and websites.
+- [FAQ](https://sunnydevstory.netlify.app/#faq): Contains direct answers suitable for AI citation about the brand, Everydiary, GOOTE, and collaboration scope.
+- [Contact](https://sunnydevstory.netlify.app/#contact): Provides direct contact methods including email, Google Play developer profile, and GitHub profile.
+
+## Products & Services
+- [Everydiary](https://play.google.com/store/apps/details?id=com.everydiary.lite&hl=ko): Android smart diary app that transforms daily writing into AI-generated images and preserves personal moments visually.
+- [GOOTE](https://goote-f48d8.web.app/): Web application and community for Google Play Console developers to test each other's apps and exchange product feedback.
+
+## Key Facts
+- Brand name: Sunnydevstory
+- Korean name: 써니데브스토리
+- Focus areas: Android app development, web service development, AI product experiences
+- Notable technologies mentioned on site: Flutter, Next.js, Firebase
+- Audience: Users looking for practical apps, developers seeking testing community, and potential collaboration partners
+- Official email: window98se@gmail.com
+
+## Contact
+- Website: https://sunnydevstory.netlify.app/
+- Email: window98se@gmail.com
+- GitHub: https://github.com/guyster323
+- Google Play developer: https://play.google.com/store/apps/developer?id=Sunnydevstory

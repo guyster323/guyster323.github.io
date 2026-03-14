@@ -1161,3 +1161,113 @@ a {
     height: 110px;
   }
 }
+
+/* --- GEO Content Blocks --- */
+.hero-summary {
+  max-width: 720px;
+  margin: 0 auto var(--space-2xl);
+  color: var(--text-secondary);
+  font-size: var(--font-size-base);
+  line-height: 1.9;
+}
+
+.hero-summary strong {
+  color: var(--text-primary);
+}
+
+.about-facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-md);
+  margin: 0 0 var(--space-2xl);
+}
+
+.fact-item {
+  padding: var(--space-lg);
+  background: var(--bg-glass);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+}
+
+.fact-label {
+  display: block;
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.fact-value {
+  display: block;
+  color: var(--text-primary);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.faq {
+  background: linear-gradient(180deg, rgba(6, 6, 18, 1) 0%, rgba(13, 13, 36, 1) 100%);
+}
+
+.faq-list {
+  max-width: 920px;
+  margin: 0 auto;
+  display: grid;
+  gap: var(--space-lg);
+}
+
+.faq-item {
+  padding: var(--space-xl);
+  background: var(--bg-glass);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.faq-question {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--space-sm);
+  letter-spacing: -0.02em;
+}
+
+.faq-answer {
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .about-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .faq-question {
+    font-size: var(--font-size-lg);
+  }
+}
+
+.fact-link {
+  color: var(--text-primary);
+  font-weight: 600;
+  word-break: break-all;
+}
+
+.fact-link:hover {
+  color: var(--accent-orange-light);
+}
+
+.contact-cards--four {
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1040px;
+}
+
+@media (max-width: 968px) {
+  .contact-cards--four {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-cards--four {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+  }
+}
