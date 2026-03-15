@@ -1,0 +1,25 @@
+# Sunnydevstory
+> Sunnydevstory is the official landing page for a Korean solo developer brand building AI-enabled Android apps and web communities.
+
+## Main Pages
+- [Home](https://sunnydevstory.netlify.app/): Official landing page for Sunnydevstory.
+- [About](https://sunnydevstory.netlify.app/#about): Overview of the developer brand, focus areas, and core capabilities.
+- [Projects](https://sunnydevstory.netlify.app/#projects): Featured products including Everydiary and GOOTE.
+- [Vision](https://sunnydevstory.netlify.app/#vision): Product philosophy and long-term direction.
+- [FAQ](https://sunnydevstory.netlify.app/#faq): Direct answers about the brand and projects.
+- [Contact](https://sunnydevstory.netlify.app/#contact): Email, Google Play, and GitHub links.
+
+## Products & Services
+- [Everydiary](https://play.google.com/store/apps/details?id=com.everydiary.lite&hl=ko): Android diary app that turns journal entries into AI-generated images.
+- [GOOTE](https://goote-f48d8.web.app/): Web community for Google Play developers to exchange testing feedback.
+
+## Key Facts
+- Sunnydevstory builds Android apps, web services, and AI-assisted product experiences.
+- The site highlights live products, collaboration intent, and official identity links.
+- Primary language: Korean.
+
+## Contact
+- Website: https://sunnydevstory.netlify.app/
+- Email: window98se@gmail.com
+- GitHub: https://github.com/guyster323
+- Google Play: https://play.google.com/store/apps/developer?id=Sunnydevstory

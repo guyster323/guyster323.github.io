@@ -1,0 +1,17 @@
+{
+  "name": "Sunnydevstory",
+  "short_name": "Sunnydevstory",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060612",
+  "theme_color": "#060612",
+  "lang": "ko-KR",
+  "description": "AI 기반 Android 앱과 웹 서비스를 만드는 개인 개발 브랜드, Sunnydevstory의 공식 랜딩페이지입니다.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

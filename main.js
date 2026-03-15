@@ -178,6 +178,57 @@ function initScrollIndicator() {
   });
 }
 
+// --- Language Toggle ---
+function initLangToggle() {
+  const toggleBtn = document.getElementById('lang-toggle');
+  if (!toggleBtn) return;
+
+  const htmlNode = document.documentElement;
+  const koSpan = toggleBtn.querySelector('[data-lang="ko"]');
+  const enSpan = toggleBtn.querySelector('[data-lang="en"]');
+  
+  const titles = {
+    ko: "써니데브스토리 | Sunnydevstory - AI 앱 · 웹 서비스 개발자 랜딩페이지",
+    en: "Sunnydevstory - AI App & Web Services Developer Landing Page"
+  };
+  const desc = {
+    ko: "써니데브스토리(Sunnydevstory)는 AI 기반 Android 앱 Everydiary와 개발자 커뮤니티 GOOTE를 만드는 개인 개발 브랜드입니다. 앱 개발, 웹 서비스 제작, 프로젝트 협업 정보를 제공합니다.",
+    en: "Sunnydevstory is a solo developer brand creating AI-based Android apps like Everydiary and testing community GOOTE. Showcasing apps, web development, and collaboration details."
+  };
+
+  const metaDesc = document.getElementById('meta-description');
+  const ogTitle = document.getElementById('og-title');
+  const ogDesc = document.getElementById('og-description');
+  const twTitle = document.getElementById('twitter-title');
+  const twDesc = document.getElementById('twitter-description');
+
+  function setLanguage(lang) {
+    htmlNode.lang = lang;
+    
+    // Update active states on the toggle spans
+    if (lang === 'ko') {
+      koSpan.classList.add('active');
+      enSpan.classList.remove('active');
+    } else {
+      enSpan.classList.add('active');
+      koSpan.classList.remove('active');
+    }
+
+    // Update document head meta tags dynamically
+    document.title = titles[lang];
+    if (metaDesc) metaDesc.content = desc[lang];
+    if (ogTitle) ogTitle.content = titles[lang];
+    if (ogDesc) ogDesc.content = desc[lang];
+    if (twTitle) twTitle.content = titles[lang];
+    if (twDesc) twDesc.content = desc[lang];
+  }
+
+  toggleBtn.addEventListener('click', () => {
+    const newLang = htmlNode.lang === 'ko' ? 'en' : 'ko';
+    setLanguage(newLang);
+  });
+}
+
 // --- Initialize ---
 document.addEventListener('DOMContentLoaded', () => {
   createParticles();
@@ -185,4 +236,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initRevealAnimations();
   initCounters();
   initScrollIndicator();
+  initLangToggle();
 });
